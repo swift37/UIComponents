@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Double Slider</title>
+		<link rel="stylesheet" href="style.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Roboto&display=swap"
+			rel="stylesheet"
+		/>
+	</head>
+	<body>
+		<div class="wrapper">
+			<header>
+				<h1>Double Slider</h1>
+				<label>Enter your min and max values or use the slider</label>
+			</header>
+			<div class="range-inputs">
+				<div class="field">
+					<label>Min</label>
+					<input type="number" id="minInput" value="3000" />
+				</div>
+				<div class="separator"></div>
+				<div class="filed">
+					<label>Max</label>
+					<input type="number" id="maxInput" value="12000" />
+				</div>
+			</div>
+			<div class="double-slider">
+				<div class="range"></div>
+				<div class="range-sliders">
+					<input type="range" id="minRange" min="0" max="15000" value="3000" />
+					<input type="range" id="maxRange" min="0" max="15000" value="12000" />
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
