@@ -90,8 +90,8 @@ input::-webkit-inner-spin-button {
 .double-slider .range {
 	position: absolute;
 	height: 5px;
-	left: 20%;
-	right: 20%;
+	left: 25%;
+	right: 25%;
 	border-radius: 5px;
 	background-color: #9270d7;
 }
